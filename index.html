@@ -1,24 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Zaid Khan - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zaid Khan | Mechanical Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <img src="images/profile.jpg" alt="Profile Photo" class="profile-pic">
-    
-    <h1>Zaid KHAN</h1>
-    <h2>Mechanical Engineer | Management and Industrial Engineering Systems (Ongoing)</h2>
+    <header>
+      <img src="images/profile.jpg" alt="Zaid Khan" class="profile-pic" />
+      <h1>Zaid KHAN</h1>
+      <h2>Mechanical Engineer | Management and Industrial Engineering Systems (Ongoing)</h2>
+    </header>
 
-    <p>Passionate about mechanical systems, optimization, and the intersection of engineering and management. I enjoy learning, collaborating, and solving real-world industrial problems.</p>
+    <section id="about">
+      <h3>About Me</h3>
+      <p>
+        Passionate about mechanical systems, optimization, and the intersection
+        of engineering and management. I enjoy learning, collaborating, and solving
+        real-world industrial problems.
+      </p>
+    </section>
 
-    <div class="links">
-      <a href="https://github.com/zaid-khan" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/zaid-khan-595815174" target="_blank">LinkedIn</a>
-      <a href="resume.pdf" target="_blank">Resume</a>
-    </div>
+    <section id="projects">
+      <h3>Projects</h3>
+      <ul>
+        <li>
+          <strong>Project 1:</strong> Design of a thermal energy recovery system.  
+          <a href="#" target="_blank">View Details</a>
+        </li>
+        <li>
+          <strong>Project 2:</strong> Optimization of manufacturing workflow using industrial engineering methods.  
+          <a href="#" target="_blank">View Details</a>
+        </li>
+        <li>
+          <strong>Project 3:</strong> Automation of quality control in mechanical assembly line.  
+          <a href="#" target="_blank">View Details</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h3>Skills</h3>
+      <ul class="skills-list">
+        <li>Mechanical Design</li>
+        <li>Industrial Engineering</li>
+        <li>Project Management</li>
+        <li>Python Programming</li>
+        <li>Data Analysis</li>
+        <li>AutoCAD & SolidWorks</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h3>Contact Me</h3>
+      <form id="contactForm" action="https://formspree.io/f/yourformid" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="links">
+        <a href="https://github.com/zaid-khan" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/zaid-khan-595815174" target="_blank">LinkedIn</a>
+        <a href="resume.pdf" target="_blank">Resume</a>
+      </div>
+      <p>© 2025 Zaid Khan. All rights reserved.</p>
+    </footer>
   </div>
 </body>
 </html>
